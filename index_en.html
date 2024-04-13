@@ -1,227 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PluralityCN Website Navigation</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f8f8f8;
-      color: #333;
-      transition: background-color 0.3s, color 0.3s;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PluralityCN Static Web Directory</title>
+<style>
+    @keyframes auroraBG {
+        0% { background-position: 0% 50%; }
+        25% { background-position: 100% 50%; }
+        50% { background-position: 0% 50%; }
+        75% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
     }
-
+    body, html {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(120deg, #012939, #0290b0, #00cdac, #a1ffce, #f68084, #feada6, #012939);
+        background-size: 800% 800%;
+        animation: auroraBG 20s ease infinite;
+        font-family: Arial, sans-serif;
+    }
     .container {
-      max-width: 800px;
-      margin: 20px auto;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: background-color 0.3s ease, box-shadow 0.5s ease, transform 0.5s ease;
+        cursor: pointer;
+        width: 80%; /* Adjust container width */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-
-    h1 {
-      text-align: center;
-      color: #007BFF;
+    .card {
+        background-color: #fff;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        display: flex;
+        width: 100%; /* Full width cards */
     }
-
-    .announcement {
-      margin-bottom: 20px;
-      padding: 10px;
-      background-color: #ffeeba;
-      border: 1px solid #ffc107;
-      border-radius: 5px;
+    .left {
+        flex: 3;
     }
-
-    .category {
-      margin-top: 20px;
+    .right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-
-    .site {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      margin: 10px 0;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-      transition: background-color 0.3s;
+    .right a {
+        text-decoration: none;
+        color: white;
+        background-color: #007BFF;
+        padding: 10px 20px;
+        border-radius: 5px;
     }
-
-    .site:hover {
-      background-color: #f0f0f0;
-    }
-
-    .toggle-btn {
-      cursor: pointer;
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-
-    .night-mode {
-      text-align: right;
-      margin-top: 20px;
-    }
-
-    .night-mode label {
-      display: inline-block;
-      margin-right: 10px;
-    }
-
-    .language-switch {
-      margin-top: 10px;
-    }
-  </style>
+</style>
 </head>
 <body>
-
 <div class="container">
-  <div class="announcement">
-    Note: It is recommended to access websites through the navigation and confirm that the domain is "tulpa.cn", "plura.wiki", or "pluralitycn.wiki".
-  </div>
-
-  <h1>PluralityCN Website Navigation</h1>
-
-  <div class="category" id="entry-websites">
-    <h2>Entry Websites</h2>
-    <div class="site">
-      <div>
-        <strong>The All-in-One Site of PluralityCN</strong>
-        <p>A Completely New Site!It includes all contents that legacy sites included.</p>
-      </div>
-      <a href="https://aiosite-of-pluralitycn.notion.site/b89fb100dbde4bdbb08bd17f13d22847?pvs=4 target="_blank">Visit</a>
+    <h1>PluralityCN Static Web Directory</h1>
+    <p>Welcome to the <b>PluralityCN Static Web Directory</b>, providing access to commonly used websites in the community.</p>
+    <div class="card">
+        <div class="left">
+            <h2>PluralityCN Official Website</h2>
+            <p>The official website of the Chinese plurality system community, featuring important content such as community announcements and event promotions.</p>
+        </div>
+        <div class="right">
+            <a href="https://www.pluralitycn.com" target="_blank">Visit Website</a>
+        </div>
     </div>
-    
-    <div class="site">
-      <div>
-        <strong>Tulpa Home</strong>
-        <p>Tulpa Home has a wealth of tutorials and stories about Tulpa.</p>
-      </div>
-      <a href="https://tulpahome.pluralitycn.wiki" target="_blank">Visit</a>
+    <div class="card">
+        <div class="left">
+            <h2>PluralityCN Portal Website</h2>
+            <p>Our portal website where you can access various sites directly.</p>
+        </div>
+        <div class="right">
+            <a href="https://portal.pluralitycn.com" target="_blank">Visit Website</a>
+        </div>
     </div>
-
-    <div class="site">
-      <div>
-        <strong>Plurality Home</strong>
-        <p>Official tutorials and Q&A website for the Chinese plurality community (PluralityCN).</p>
-      </div>
-      <a href="https://home.pluralitycn.wiki" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>Plurality Encyclopedia</strong>
-        <p>Collects frequently used/generic terms in the Chinese plurality community for newcomers' understanding.</p>
-      </div>
-      <a href="https://pedia.pluralitycn.wiki" target="_blank">Visit</a>
-    </div>
-  </div>
-
-  <div class="category" id="advanced-websites">
-    <h2>Advanced Websites</h2>
-    <div class="site">
-      <div>
-        <strong>Plurality Source</strong>
-        <p>Official source storer of PluralityCN.</p>
-      </div>
-      <a href="https://source.plura.wiki" target="_blank">Visit</a>
-    </div>
-    
-    <div class="site">
-      <div>
-        <strong>Plurality Research</strong>
-        <p>Official showcase of scientific research results in the Chinese plurality community.</p>
-      </div>
-      <a href="https://research.plura.wiki" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>PluralityCN Blacklist System</strong>
-        <p>Official blacklist system for the Chinese plurality community, available for anyone to avoid problematic members.</p>
-      </div>
-      <a href="https://blacklist.plura.wiki" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>Plurality Library</strong>
-        <p>Stores many books, materials, etc., about plurality.</p>
-      </div>
-      <a href="https://library.plura.wiki" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>Development Community</strong>
-        <p>Official development community for the Chinese plurality community.</p>
-      </div>
-      <a href="https://dev.pluralitycn.wiki" target="_blank">Visit</a>
-    </div>
-  </div>
-
-  <div class="category" id="entertainment-websites">
-    <h2>Leisure & Entertainment</h2>
-    <div class="site">
-      <div>
-        <strong>PluralityMC Skins</strong>
-        <p>Entertainment project MC server skin station for the Chinese plurality community. Requires an account on this site to enter the server.</p>
-      </div>
-      <a href="https://skin.leaphorizon.xyz" target="_blank">Visit</a>
-    </div>
-  </div>
-
-  <div class="category" id="dynamic-websites">
-    <h2>Dynamic Websites (Legacy)</h2>
-    <div class="site">
-      <div>
-        <strong>Tulpa Home Dynamic</strong>
-        <p>Tulpa Home Dynamic Website</p>
-      </div>
-      <a href="https://www.tulpa.cn" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>PluralityCN Home Dynamic</strong>
-        <p>PluralityCN Home Dynamic Website</p>
-      </div>
-      <a href="https://home.plura.wiki" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>Plurality Encyclopedia Dynamic</strong>
-        <p>Plurality Encyclopedia Dynamic Website</p>
-      </div>
-      <a href="https://plura.wiki" target="_blank">Visit</a>
-    </div>
-  </div>
-
-  <div class="night-mode">
-    <label for="nightMode">Night Mode:</label>
-    <input type="checkbox" id="nightMode" onclick="toggleNightMode()">
-  </div>
-
-  <div class="language-switch">
-    <label for="languageSwitch">Switch Language:</label>
-    <select id="languageSwitch" onchange="changeLanguage()">
-      <option value="en">English</option>
-      <option value="zh-CN">中文</option>
-    </select>
-  </div>
-
+    <!-- More cards can be added as needed -->
 </div>
-
-<script>
-  function toggleNightMode() {
-    const body = document.body;
-    body.classList.toggle('night-mode');
-  }
-
-  function changeLanguage() {
-    const selectedLanguage = document.getElementById('languageSwitch').value;
-    window.location.href = `index_${selectedLanguage}.html`;
-  }
-</script>
-
+<footer>
+    <p>© 2024 <a href="https://www.pluralitycn.com">PluralityCN</a></p>
+</footer>
 </body>
 </html>
