@@ -4,11 +4,11 @@
 
 ## 访问网站
 
-您可以**访问我们的网站**，网址为：[https://www.pluralitycn.wiki](https://www.pluralitycn.wiki)。请确保您在访问网站时**仔细核对网址**，以确保域名为 "pluralitycn.wiki"，来防止被钓鱼网站吸引。
+您可以**访问我们的网站**，网址为：[https://www.pluralitycn.com](https://www.pluralitycn.com)。请确保您在访问网站时**仔细核对网址**，以确保域名为 "pluralitycn.wiki"，来防止被钓鱼网站吸引。
 
 ## 技术细节
 
-该网页是使用开源静态网页生成器 **Hexo** 生成的。您可以在 Hexo 项目的 GitHub 存储库中找到更多信息和源代码：[Hexo GitHub 仓库](https://github.com/hexojs/hexo)
+我们的静态网页是使用开源静态网页生成器 **Hexo** 生成的。您可以在 Hexo 项目的 GitHub 存储库中找到更多信息和源代码：[Hexo GitHub 仓库](https://github.com/hexojs/hexo)
 
 ---
 
