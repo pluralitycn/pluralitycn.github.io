@@ -4,7 +4,7 @@
 
 ## 访问网站
 
-您可以**访问我们的网站**，网址为：[https://www.pluralitycn.com](https://www.pluralitycn.com)。请确保您在访问网站时**仔细核对网址**，以确保域名为 "pluralitycn.wiki"，来防止被钓鱼网站吸引。
+您可以**访问我们的网站**，网址为：[https://www.pluralitycn.com](https://www.pluralitycn.com)。请确保您在访问网站时**仔细核对网址**，以确保域名为 "pluralitycn.com"，来防止被钓鱼网站吸引。
 
 ## 技术细节
 
