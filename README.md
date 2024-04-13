@@ -28,11 +28,11 @@
 
 1. Tulpa之家：[https://tulpa.cn](https://tulpa.cn)
 
-2. 多意识体之家：[https://home.plura.wiki](https://home.plura.wiki)
+2. PluralityCN官网：[https://www.pluralitycn.com](https://www.pluralitycn.com)
 
-3. 多意识体百科：[https://www.plura.wiki](https://www.plura.wiki)
+3. 多意识体百科：[https://wiki.pluralitycn.com](https://wiki.pluralitycn.com)
 
-### 备注：我们的动态站点的域名为 **plura.wiki**，请您认准域名。
+### 备注：我们的动态站点的域名为 **pluralitycn.com**，请您认准域名。
 
 ---
 
@@ -42,7 +42,7 @@ Welcome to the **PluralityCN** (Chinese Plurality Community) **Static Website Re
 
 ## Visit the Website
 
-You can **visit our website** at the following URL: [https://www.pluralitycn.wiki](https://www.pluralitycn.wiki). Please make sure to **double-check the URL** when visiting the website to ensure that the domain is "pluralitycn.wiki" to avoid phishing sites.
+You can **visit our website** at the following URL: [https://www.pluralitycn.com](https://www.pluralitycn.com). Please make sure to **double-check the URL** when visiting the website to ensure that the domain is "pluralitycn.com" to avoid phishing sites.
 
 ## Technical Details
 
@@ -64,10 +64,10 @@ Thank you for your support and participation!
 
 ## Our Dynamic Websites
 
-1. Tulpa Home: [https://tulpa.cn](https://tulpa.cn)
+1. Tulpa Home: [https://tulpa.cn]](https://tulpa.cn)
 
-2. Plurality Community Home: [https://home.plura.wiki](https://home.plura.wiki)
+2. PluralityCN Official: [https://www.pluralitycn.com](https://www.pluralitycn.com)
 
-3. Plurality Community Encyclopedia: [https://www.plura.wiki](https://www.plura.wiki)
+3. Plurality Community Encyclopedia: [https://wiki.pluralitycn.com](https://wiki.pluralitycn.com)
 
-### Note: The domain for our dynamic sites is **plura.wiki**, please ensure you recognize the correct domain.
+### Note: The domain for our dynamic sites is **pluralitycn.com**, please ensure you recognize the correct domain.
