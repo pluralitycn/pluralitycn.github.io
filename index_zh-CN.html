@@ -1,223 +1,96 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>中文多意识体社群（PluralityCN）网址导航</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f8f8f8;
-      color: #333;
-      transition: background-color 0.3s, color 0.3s;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>网址导航</title>
+<style>
+    @keyframes auroraBG {
+        0% { background-position: 0% 50%; }
+        25% { background-position: 100% 50%; }
+        50% { background-position: 0% 50%; }
+        75% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
     }
-
+    body, html {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(120deg, #012939, #0290b0, #00cdac, #a1ffce, #f68084, #feada6, #012939);
+        background-size: 800% 800%;
+        animation: auroraBG 20s ease infinite;
+        font-family: Arial, sans-serif;
+    }
     .container {
-      max-width: 800px;
-      margin: 20px auto;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: background-color 0.3s ease, box-shadow 0.5s ease, transform 0.5s ease;
+        cursor: pointer;
+        width: 80%; /* Adjust container width */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-
-    .announcement {
-      margin-bottom: 20px;
-      padding: 10px;
-      background-color: #ffeeba;
-      border: 1px solid #ffc107;
-      border-radius: 5px;
+    .card {
+        background-color: #fff;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        display: flex;
+        width: 100%; /* Full width cards */
     }
-
-    h1 {
-      text-align: center;
-      color: #007BFF;
+    .left {
+        flex: 3;
     }
-
-    .category {
-      margin-top: 20px;
+    .right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-
-    .site {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      margin: 10px 0;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-      transition: background-color 0.3s;
+    .right a {
+        text-decoration: none;
+        color: white;
+        background-color: #007BFF;
+        padding: 10px 20px;
+        border-radius: 5px;
     }
-
-    .site:hover {
-      background-color: #f0f0f0;
-    }
-
-    .night-mode {
-      text-align: right;
-      margin-top: 20px;
-    }
-
-    .night-mode label {
-      display: inline-block;
-      margin-right: 10px;
-    }
-
-    .language-switch {
-      margin-top: 10px;
-    }
-  </style>
+</style>
 </head>
 <body>
-
 <div class="container">
-  <div class="announcement">
-    注意：建议通过网址导航进入网址，并确认进入的网址域名是否为“tulpa.cn”、“plura.wiki”、“pluralitycn.wiki”或“pluralitycn.info”。
-  </div>
-  <div class="announcement">
-    请注意：<b>“pluralitycn.org”不是我们的域名</b>，也不在我们的管辖范围内！
-  </div>
-  <h1>中文多意识体社群（PluralityCN）网址导航</h1>
-
-  <div class="category" id="entry-websites">
-    <h2>入门网站</h2>
-    <div class="site">
-      <div>
-        <strong>中文多意识体社群多合一网站</strong>
-        <p>全新网站，将之前多个网站的内容合而为一以便查看。</p>
-      </div>
-      <a href="https://aiosite-of-pluralitycn.notion.site/b89fb100dbde4bdbb08bd17f13d22847?pvs=4" target="_blank">Visit</a>
+    <h1>即将回归</h1>
+    <p>我们的网站正在升级，很快将以全新的面貌回归。</p>
+    <div class="card">
+        <div class="left">
+            <h2>示例网站1</h2>
+            <p>这是示例网站1的简介。</p>
+        </div>
+        <div class="right">
+            <a href="https://example1.com" target="_blank">访问网站</a>
+        </div>
     </div>
-    
-    <div class="site">
-      <div>
-        <strong>Tulpa之家</strong>
-        <p>Tulpa之家中有大量关于Tulpa的教程、故事等。</p>
-      </div>
-      <a href="https://tulpahome.pluralitycn.wiki" target="_blank">Visit</a>
+    <div class="card">
+        <div class="left">
+            <h2>示例网站2</h2>
+            <p>这是示例网站2的简介。</p>
+        </div>
+        <div class="right">
+            <a href="https://example2.com" target="_blank">访问网站</a>
+        </div>
     </div>
-
-    <div class="site">
-      <div>
-        <strong>PluralityCN之家</strong>
-        <p>中文多意识体社群（PluralityCN）的官方教程和答疑网站。</p>
-      </div>
-      <a href="https://home.pluralitycn.wiki" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>多意识体百科</strong>
-        <p>收录了中文多意识体社群中经常出现/通用的词汇，便于新人理解。</p>
-      </div>
-      <a href="https://pedia.pluralitycn.wiki" target="_blank">Visit</a>
-    </div>
-  </div>
-
-  <div class="category" id="advanced-websites">
-    <h2>进阶网站</h2>
-    <div class="site">
-      <div>
-        <strong>中文多意识体社群资源站</strong>
-        <p>社群资源的存放地。</p>
-      </div>
-      <a href="https://source.plura.wiki" target="_blank">Visit</a>
-    </div>
-    
-    <div class="site">
-      <div>
-        <strong>多意识体科研站</strong>
-        <p>中文多意识体社群官方的科研成果展示站。</p>
-      </div>
-      <a href="https://research.plura.wiki" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>中文多意识体社群云黑系统</strong>
-        <p>中文多意识体社群的官方云黑系统，可以供任何人规避逆天成员。</p>
-      </div>
-      <a href="https://blacklist.plura.wiki" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>多意识体图书馆</strong>
-        <p>存放了许多关于多意识体的书籍、资料等。</p>
-      </div>
-      <a href="https://library.plura.wiki" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>开发社区</strong>
-        <p>中文多意识体社群官方开发社区。</p>
-      </div>
-      <a href="https://dev.pluralitycn.wiki" target="_blank">Visit</a>
-    </div>
-  </div>
-
-  <div class="category" id="entertainment-websites">
-    <h2>休闲娱乐</h2>
-    <div class="site">
-      <div>
-        <strong>多意识体社群MC服务器皮肤站</strong>
-        <p>中文多意识体社群娱乐项目MC服务器的皮肤站，进入服务器需要使用本网站的账号。</p>
-      </div>
-      <a href="https://skin.leaphorizon.xyz" target="_blank">Visit</a>
-    </div>
-  </div>
-
-  <div class="category" id="dynamic-websites">
-    <h2>动态网站（Legacy）</h2>
-    <div class="site">
-      <div>
-        <strong>Tulpa之家动态网站</strong>
-        <p>动态网站描述</p>
-      </div>
-      <a href="https://www.tulpa.cn" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>多意识体之家动态网站</strong>
-        <p>动态网站描述</p>
-      </div>
-      <a href="https://home.plura.wiki" target="_blank">Visit</a>
-    </div>
-
-    <div class="site">
-      <div>
-        <strong>多意识体百科动态网站</strong>
-        <p>动态网站描述</p>
-      </div>
-      <a href="https://plura.wiki" target="_blank">Visit</a>
-    </div>
-  </div>
-
-  <div class="night-mode">
-    <label for="nightMode">夜间模式：</label>
-    <input type="checkbox" id="nightMode" onclick="toggleNightMode()">
-  </div>
-
-  <div class="language-switch">
-    <label for="languageSwitch">切换语言：</label>
-    <select id="languageSwitch" onchange="changeLanguage()">
-      <option value="zh-CN">中文</option>
-      <option value="en">English</option>
-    </select>
-  </div>
-
+    <!-- 更多卡片可以根据需要添加 -->
 </div>
-
-<script>
-  function toggleNightMode() {
-    const body = document.body;
-    body.classList.toggle('night-mode');
-  }
-
-  function changeLanguage() {
-    const selectedLanguage = document.getElementById('languageSwitch').value;
-    window.location.href = `index_${selectedLanguage}.html`;
-  }
-</script>
-
+<footer>
+    <p>© 2024 网站维护团队</p>
+</footer>
 </body>
 </html>
